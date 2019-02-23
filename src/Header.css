@@ -1,0 +1,14 @@
+.nav-main {
+  background-image: linear-gradient(
+    160deg,
+    rgb(65, 15, 202),
+    rgb(63, 154, 167)
+  );
+}
+
+#header-text {
+  color: white;
+  font-weight: bold;
+  font-size: 30pt;
+  text-align: center !important;
+}

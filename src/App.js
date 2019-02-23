@@ -1,25 +1,27 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
+import filterHeroes from "./filterHeroes";
+import Header from "./Header";
+import SearchHero from "./SearchHero";
+import HeroesResults from "./HeroesResults";
+import "./App.css";
 
 class App extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      filteredHeroes: filterHeroes("", 100)
+    };
+    this.handleSearch = this.handleSearch.bind(this);
+  }
+  handleSearch(event) {
+    this.setState({ filteredHeroes: filterHeroes(event.target.value, 30) });
+  }
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+        <Header />
+        <SearchHero handleChange={this.handleSearch} />
+        <HeroesResults heroesData={this.state.filteredHeroes} />
       </div>
     );
   }
