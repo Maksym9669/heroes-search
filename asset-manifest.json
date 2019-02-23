@@ -1,0 +1,13 @@
+{
+  "main.css": "/heroes-search/static/css/main.6b69f8c5.chunk.css",
+  "main.js": "/heroes-search/static/js/main.e4470189.chunk.js",
+  "main.js.map": "/heroes-search/static/js/main.e4470189.chunk.js.map",
+  "runtime~main.js": "/heroes-search/static/js/runtime~main.08efac45.js",
+  "runtime~main.js.map": "/heroes-search/static/js/runtime~main.08efac45.js.map",
+  "static/js/2.5bb62acd.chunk.js": "/heroes-search/static/js/2.5bb62acd.chunk.js",
+  "static/js/2.5bb62acd.chunk.js.map": "/heroes-search/static/js/2.5bb62acd.chunk.js.map",
+  "index.html": "/heroes-search/index.html",
+  "precache-manifest.5e7e2bd2a9d8f00ec2ff568ae61cf82f.js": "/heroes-search/precache-manifest.5e7e2bd2a9d8f00ec2ff568ae61cf82f.js",
+  "service-worker.js": "/heroes-search/service-worker.js",
+  "static/css/main.6b69f8c5.chunk.css.map": "/heroes-search/static/css/main.6b69f8c5.chunk.css.map"
+}
